@@ -10,7 +10,7 @@ const Projects = ({data}) => {
     return (
       <>
 
-<Box bg={'#171923'} mt={4}   margin={"auto"}w={"70%"} height={"660px"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"}>
+<Box bg={'#171923'} mt={4}   margin={"auto"}w={"70%"} height={"660px"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"}color={"white"}>
 
 {data.items.map((el)=>(
    

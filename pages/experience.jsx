@@ -3,7 +3,7 @@ import {Box,  Text, Container , Heading} from "@chakra-ui/react";
 
 const Experience = ({data}) => {
   return (
-    <Box style={{backgroundColor:"#2d3748" , width:"40%" , fontSize:"12px" ,marginLeft:"10%", marginTop:"20px",padding:"5px"}}>
+    <Box style={{backgroundColor:"#2d3748" , width:"40%" , fontSize:"12px" ,marginLeft:"10%", marginTop:"20px",padding:"5px"}}color={"white"}>
     <Container mt={6} fontSize={14}>
   <Heading fontSize={"15px"}>1 {data.bio} at {data.company}</Heading>
   <p>October 2021 -Present</p>

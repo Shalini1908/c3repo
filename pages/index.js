@@ -10,7 +10,7 @@ export default function Home({data}) {
   console.log(data)
   return (
     <>
-  <Box bg={'#171923'} mt={4} h={"110vh"}>
+  <Box bg={'#171923'} mt={4} h={"110vh"} color={"white"}>
 <Box key ={data.id} style={{backgroundColor:"#2d3748" , width:"300px"}}>
 <Image src={data.avatar_url} width={100} height={100} alt="avatar" style={{borderRadius:"50%" , marginLeft:"30%"}}/>
 <Heading  ml={"30%"} fontSize={16}>{data.name}</Heading>
@@ -34,7 +34,7 @@ export default function Home({data}) {
 </Box>
 
     
-    <Box style={{backgroundColor:"#2d3748" , width:"300px" , fontSize:"12px" , textAlign:"center" , justifyContent:"center"}}>
+    <Box style={{backgroundColor:"#2d3748" , width:"300px" , fontSize:"12px" , textAlign:"center" , justifyContent:"center"}} color={"white"}>
     <Box style={{display:"flex" , marginTop:"10px"}}>
     <Box bg={"#3b535f"} w={100} h={30} m={1} >TYPESCRIPT</Box>
     <Box  bg={"#3b535f"} w={100} h={30} m={1} >REACT.JS</Box>
@@ -59,7 +59,7 @@ export default function Home({data}) {
 </Box>
 </Box>
 {/* experience */}
-<Box style={{backgroundColor:"#2d3748" , width:"300px" , fontSize:"12px"}}>
+<Box style={{backgroundColor:"#2d3748" , width:"300px" , fontSize:"12px"}} color={"white"}>
   <Container mt={2} fontSize={14}>
 <Text> 1 {data.bio} at {data.company}</Text>
 <p>October 2021 -Present</p>
@@ -109,7 +109,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} color={"white"}>
     
     <div  style={{  width:"60%"}}>
     
@@ -129,7 +129,7 @@ export default function Home({data}) {
      
       </Box>
 
-      <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+      <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }}color={"white"} >
     
 <div  style={{  width:"60%"}}>
 
@@ -149,7 +149,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} color={"white"}>
     
 <div  style={{  width:"60%"}}>
 
@@ -169,7 +169,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} color={"white"}>
     
 <div  style={{  width:"60%"}}>
 
@@ -189,7 +189,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }}color={"white"} >
     
 <div  style={{  width:"60%"}}>
 
@@ -209,7 +209,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }}color={"white"} >
     
 <div  style={{  width:"60%"}}>
 
@@ -229,7 +229,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} color={"white"}>
     
 <div  style={{  width:"60%"}}>
 
@@ -249,7 +249,7 @@ export default function Home({data}) {
  
   </Box>
 
-  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
+  <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} color={"white"}>
     
 <div  style={{  width:"60%"}}>
 
