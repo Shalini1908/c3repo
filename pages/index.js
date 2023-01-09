@@ -88,7 +88,7 @@ export default function Home({data}) {
 </Box>
 </Box>
 {/* project */}
-<Box bg={'#171923'} mt={"-53.5%"} w={"70%"} height={"660px"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} ml={"25%"}>
+<Box bg={'#171923'} mt={"-53.5%"} w={"70%"} height={"660px"} display={"grid"} gridTemplateColumns={"repeat(3,1fr)"} ml={"25%"} color={"white"}>
 <Box style={{backgroundColor:"#2d3748" , border:"1px solid teal" , padding:"10px" }} >
     
 <div  style={{  width:"60%" , height:"50%"}}>
