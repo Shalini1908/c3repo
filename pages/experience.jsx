@@ -35,7 +35,7 @@ const Experience = ({data}) => {
 
 export default Experience;
 
-export async function getServerSideProps(){
+export async function getStaticProps(){
     let r = await fetch (`https://api.github.com/users/Shalini1908`);
     let d = await r.json();
     return {
